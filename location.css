@@ -1,0 +1,129 @@
+@font-face {
+  font-family: Monoton;
+  src: url(../css/fonts/Monoton-Regular.ttf);
+}
+body {
+  background-image: url("../css/images/FieldGardenShot.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h5 {
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 225px;
+}
+h1 {
+  font-family: Monoton;
+  cursor: pointer;
+  order: 1;
+  font-size: 45px;
+  margin-right: auto;
+}
+.para {
+  margin-left: 65px;
+  margin-top: 32px;
+  box-sizing: border-box;
+  height: 450px;
+  width: 455px;
+  border-radius: 15px;
+  position: relative;
+  top: 55px;
+  background-color: rgba(128, 128, 128, 0.7);
+}
+.text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+  top: 35px;
+}
+nav {
+  order: 2;
+}
+
+.cta {
+  order: 3;
+}
+h2 {
+  float: right;
+  margin-left: 30px;
+  position: relative;
+  top: 45px;
+  right: 45px;
+}
+header {
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.7);
+}
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li:nth-child(2) {
+  padding: 0 20px 0 0;
+}
+.nav_links li:nth-child(1) {
+  padding: 0 20px 0 0;
+}
+
+.nav_links li:nth-child(3) {
+  padding: 0 20px 0 0;
+}
+
+.nav_links {
+  display: inline-flex;
+  padding: 0px 10px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #166138;
+}
+
+button {
+  margin-left: 35px;
+  padding: 9px 25px;
+  background-color: rgba(22, 96, 55, 1);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(22, 96, 55, 0.6);
+}
+
+iframe {
+  margin-left: 80px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  height: 400px;
+  width: 425px;
+  border-radius: 15px;
+  position: absolute;
+  top: 280px;
+}
